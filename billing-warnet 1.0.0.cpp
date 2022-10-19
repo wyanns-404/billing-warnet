@@ -20,7 +20,7 @@ void waktu_main(string nama,int pc){
 	int jam=0,menit=0,detik=0;
 	while(!kbhit()){
 		detik++;
-		Sleep(10);
+		Sleep(1000);
 		if(menit>59){
 			jam++;
 			menit=0;
